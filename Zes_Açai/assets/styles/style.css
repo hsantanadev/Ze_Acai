@@ -162,11 +162,12 @@ section {
     padding: 20px 35px;
     text-align: center;
     transition: transform 0.3s;
+    cursor: pointer;
 }
 
 .card-produto:hover {
-    box-shadow: 4px 4px 8px violet,
-                -4px -4px 8px rebeccapurple;
+    box-shadow: 4px 4px 8px rebeccapurple,
+                -4px -4px 8px violet;
     transform: translateY(-5px);
 }
 
