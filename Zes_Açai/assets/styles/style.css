@@ -204,3 +204,60 @@ section {
     font-size: 1.2rem;
     font-weight: 700;
 }
+
+
+.secao-diferenciais {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.titulo-diferenciais {
+    text-align: center;
+    font-size: 2rem;
+    color: #31023b;
+    margin-bottom: 8px;
+}
+
+.subtitulo-diferenciais {
+    text-align: center;
+    color: #555555;
+    font-size: 1rem;
+    margin-bottom: 48px;
+}
+
+.grade-diferenciais {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    text-align: center;
+}
+
+.item-diferencial {
+    background-color: #fff;
+    box-shadow: 4px 4px 8px #bebebe,
+                -4px -4px 8px #ffffff;
+    border-radius: 20px;
+    padding: 32px;
+    text-align: center;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.item-diferencial:hover {
+    box-shadow: 4px 4px 8px green,
+                -4px -4px 8px greenyellow;
+    transform: translateY(-5px);
+}
+
+.item-diferencial h3 {
+    font-size: 1.3rem;
+    color: #6B3FA0;
+    margin-bottom: 8px;
+}
+
+.item-diferencial p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+}
+
