@@ -21,6 +21,7 @@ header {
     color: #fff;
     position: sticky;
     top: 0;
+    z-index: 9999;
 }
 
 .cabecalho {
@@ -159,12 +160,15 @@ section {
     text-align: center;
     transition: transform 0.3s;
     cursor: pointer;
+    position: relative;
+    z-index: 1;
 }
 
 .card-produto:hover {
     box-shadow: 4px 4px 8px rebeccapurple,
                 -4px -4px 8px violet;
     transform: translateY(-5px);
+    z-index: 2;
 }
 
 .imagem_acai {
